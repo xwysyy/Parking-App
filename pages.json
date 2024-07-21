@@ -1,0 +1,98 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "请登录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智泊云界",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "请注册",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/component/tab",
+			"style": {
+				"navigationBarTitleText": "导航栏",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/beginOrder",
+			"style": {
+				"navigationBarTitleText": "待开始订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/plate",
+			"style": {
+				"navigationBarTitleText": "绑定车牌",
+				"enablePullDownRefresh": true
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "default",
+		"navigationBarTitleText": "智泊云界",
+		"navigationBarBackgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1296db",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/order/index",
+				"text": "订单",
+				"iconPath": "static/icons/order0.png",
+				"selectedIconPath": "static/icons/order1.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icons/index0.png",
+				"selectedIconPath": "static/icons/index1.png"
+			}, {
+				"pagePath": "pages/profile/index",
+				"text": "用户",
+				"iconPath": "static/icons/profile0.png",
+				"selectedIconPath": "static/icons/profile1.png"
+			}
+		]
+	}
+}

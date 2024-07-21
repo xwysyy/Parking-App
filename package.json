@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios-adapter-uniapp": "^0.1.4",
+    "blueimp-md5": "^2.19.0",
+    "identicon.js": "^2.3.3",
+    "qs": "^6.12.2"
+  }
+}
